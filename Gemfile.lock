@@ -33,6 +33,14 @@ GIT
       rack (>= 0.9.1)
 
 GIT
+  remote: git://github.com/randym/localeapp-i18n-js.git
+  revision: a531a4921866672cf467a25bf6c9dc4934a976f9
+  specs:
+    localeapp-i18n-js (0.0.1a)
+      i18n-js
+      localeapp
+
+GIT
   remote: git://github.com/travis-ci/travis-core.git
   revision: 79ee112964d3a05db2fb2ee0ba26da2feac794f1
   specs:
@@ -352,6 +360,7 @@ DEPENDENCIES
   jasmine!
   json (~> 1.6.3)
   localeapp (~> 0.4.1)
+  localeapp-i18n-js!
   metriks!
   mocha (~> 0.10.0)
   newrelic_rpm (~> 3.3.0)
