@@ -30,7 +30,6 @@ gem 'hubble',       :git => 'git://github.com/mattmatt/hubble.git'
 gem 'newrelic_rpm',         '~> 3.3.0'
 
 # i18n
-gem "localeapp",            "~> 0.4.1"
 gem "http_accept_language", "~> 1.0.2"
 
 # heroku
@@ -43,9 +42,11 @@ group :assets do
   gem 'uglifier',           '~> 1.2.0'
   gem 'compass',            '0.12.alpha.4'
   gem "i18n-js",            '~> 2.1.2'
+  gem "localeapp-i18n-js",  :git => "git://github.com/randym/localeapp-i18n-js'
 end
 
 group :development, :test do
+  gem "localeapp",            "~> 0.4.1"
   gem 'factory_girl',       '~> 2.4.0'
   gem 'forgery',            '~> 0.5.0'
   gem 'rspec-rails',        '~> 2.8.0'
